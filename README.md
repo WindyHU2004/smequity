@@ -71,8 +71,10 @@ smequity/
 └── README.md
 ```
 ## Interacting with the Demo Environment
-To interact with the demo environment presented in the video, open the 'Functional Demo.html' documeent in your browser. The simulated login details are:
+To interact with the demo environment presented in the video, open the 'Functional Demo.html' document in your browser. The simulated login details are:
+
 Email: janedoe@gmail.com
+
 Password: XYZ@24
 
 ## Running the project locally
