@@ -1,14 +1,14 @@
 # SMEquity (MVP)
 
 SMEquity is a concept platform for the Dutch market that lets **small and medium-sized
-enterprises (SMEs)** raise equity funding directly from **retail investors**, and — uniquely —
+enterprises (SMEs)** raise equity funding directly from **retail investors**, and
 lets those investors later **resell their stakes on a secondary market** once a 12-month lock-up
 period has passed. A liquid secondary market for private SME equity largely doesn't exist in the
 Netherlands today; this MVP demonstrates what such a product could look like.
 
-This repository contains a **front-end-only MVP** with simulated (hardcoded) data — there is no
+This repository contains a **front-end-only MVP** with simulated (hardcoded) data. There is no
 real backend, payment processing, or user authentication. It exists to demonstrate the product
-concept and core user flows.
+concept and core user flows and serves as a Minimum Viable Product.
 
 ## Pages & features
 
@@ -31,7 +31,7 @@ concept and core user flows.
   **tradeable** on the secondary market.
 
 All data (campaigns, secondary-market listings, and the investor's portfolio) is defined in
-`src/data/` as plain JavaScript modules — there is no database or API call involved. Form
+`src/data/` as plain JavaScript modules, there is no database or API call involved. Form
 submissions ("invest", "send offer") are simulated entirely in the browser and simply produce a
 confirmation screen; nothing is persisted or sent anywhere.
 
